@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header Section */
+/* Header box */
+.header-box {
+    display: flex;
+    height: 90px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.site-logo {
+    height: 80px;
+}
+.btn-box {
+    display: flex;
+    width: 70%;
+
+}
+.header-btn {
+    margin-left: 90%;
+    background-color: #E50914;
+    border: 2px solid #E50914;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    height: 35px;
+    width: 75px;
+}
+.header-btn:hover {
+    background-color: #920e15;
+    border: 2px solid #920e15;
+}
+
+/* Main Section */
+/** Hero Section **/
+.hero-sec {
+    background: 
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), /* Black overlay with 50% opacity */
+        url('netflix\ image.jpg'); /* Your background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    margin-left: -10px;
+    height: 100vh;
+    margin-top: -90px;
+}
+
+.hero-net h1 {
+    color: white;
+    margin-top: 100px;
+    font-size: 42px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-net p {
+    color: white;
+    font-size: 28px;
+    margin-top: 16px;
+}
+
+.hero-net h3 {
+    color: white;
+    font-size: 20px;
+    margin-top: 30px;
+    font-weight: 500;
+}
+.mail-form {
+    display: flex;
+    margin-top: 30px;
+    height: 50px;
+    justify-content: center;
+    gap: 10px;
+}
+.mail-form input[type="email"] {
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.295);
+    width: 340px;
+    border-radius: 5px;
+    font-size: 1em;
+    color: rgb(247, 247, 247);
+    border: 2px solid rgb(95, 95, 95);
+    outline: none;
+}
+.mail-form button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: 700;
+    width: 150px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+/* Divider */
+.divider {
+    background-color: rgb(54, 54, 54);
+    height: 10px;
+}
+
+/* Features Section Box */
+.features-box1 {
+    display: flex;
+    height: 600px;
+    align-items: center;
+    background-color: black;
+    justify-content: space-evenly;
+}
+
+.box1-1 {
+    width: 500px;
+}
+
+.features-box1 h2 {
+    color: white;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.features-box1 p {
+    color: white;
+    font-size: 24px;
+    margin-top: 16px;
+    font-weight: 400;
+}
+
+/* Features Box 2 */
+.features-box2 {
+    display: flex;
+    height: 600px;
+    align-items: center;
+    background-color: black;
+    justify-content: space-evenly;
+}
+.box2-1 {
+    padding-left: -200px;
+}
+
+.box2-2 {
+    width: 500px;
+    margin-left: -00px;
+}
+
+.features-box2 h2 {
+    color: white;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.features-box2 p {
+    color: white;
+    font-size: 24px;
+    margin-top: 16px;
+    font-weight: 400;
+}
+
